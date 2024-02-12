@@ -11,7 +11,9 @@ import SwiftUI
 struct StepaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //SplashView()
+            Dashboard()
         }
+
     }
 }
