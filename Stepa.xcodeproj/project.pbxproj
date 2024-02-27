@@ -9,7 +9,12 @@
 /* Begin PBXBuildFile section */
 		42038E022B70C0900083F3ED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42038E012B70C0900083F3ED /* Login.swift */; };
 		420434442B7267B4006039A5 /* DeviceVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420434432B7267B4006039A5 /* DeviceVerification.swift */; };
+		420EB8DF2B8C7D1500B2C2B9 /* UserRegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */; };
 		421265EF2B7210D60063F91A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421265EE2B7210D60063F91A /* Color+Extension.swift */; };
+		4226DA652B7B6D8A006D5FFC /* ReedemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226DA642B7B6D8A006D5FFC /* ReedemView.swift */; };
+		4228185F2B7E3A9500492B9E /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228185E2B7E3A9500492B9E /* Insurance.swift */; };
+		423AB3322B7F3C1500E809A4 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423AB3312B7F3C1500E809A4 /* HealthManager.swift */; };
+		423AB3362B7F873500E809A4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AB3352B7F873500E809A4 /* HealthKit.framework */; };
 		423CF8CE2B6CD9500085B335 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CF8CD2B6CD9500085B335 /* RegistrationView.swift */; };
 		425E0BE12B6B7F05007B1D84 /* StepaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BE02B6B7F05007B1D84 /* StepaApp.swift */; };
 		425E0BE32B6B7F05007B1D84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BE22B6B7F05007B1D84 /* ContentView.swift */; };
@@ -19,6 +24,9 @@
 		425E0BFC2B6B7F44007B1D84 /* StepaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BFB2B6B7F44007B1D84 /* StepaUITests.swift */; };
 		425E0BFE2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BFD2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift */; };
 		425E0C0B2B6B836B007B1D84 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0C0A2B6B836B007B1D84 /* SplashView.swift */; };
+		427ADB0A2B875A54009CB3A9 /* toastMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427ADB092B875A52009CB3A9 /* toastMessages.swift */; };
+		428016442B7DF976007461B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428016432B7DF976007461B9 /* NetworkManager.swift */; };
+		428016462B7E12E0007461B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428016452B7E12DE007461B9 /* Constants.swift */; };
 		428079BE2B6B976A004FD15F /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428079BD2B6B976A004FD15F /* OnBoarding.swift */; };
 		4281DF7C2B74BEDB00A414FE /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */; };
 		4281DF7E2B74E30700A414FE /* RegistrationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */; };
@@ -46,7 +54,13 @@
 /* Begin PBXFileReference section */
 		42038E012B70C0900083F3ED /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		420434432B7267B4006039A5 /* DeviceVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVerification.swift; sourceTree = "<group>"; };
+		420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationData.swift; sourceTree = "<group>"; };
 		421265EE2B7210D60063F91A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		4226DA642B7B6D8A006D5FFC /* ReedemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedemView.swift; sourceTree = "<group>"; };
+		4228185E2B7E3A9500492B9E /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		423AB3312B7F3C1500E809A4 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		423AB3332B7F873400E809A4 /* Stepa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stepa.entitlements; sourceTree = "<group>"; };
+		423AB3352B7F873500E809A4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		423CF8CD2B6CD9500085B335 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		425E0BDD2B6B7F05007B1D84 /* Stepa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425E0BE02B6B7F05007B1D84 /* StepaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaApp.swift; sourceTree = "<group>"; };
@@ -59,6 +73,10 @@
 		425E0BFB2B6B7F44007B1D84 /* StepaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaUITests.swift; sourceTree = "<group>"; };
 		425E0BFD2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		425E0C0A2B6B836B007B1D84 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		426FA31C2B8619B500907D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		427ADB092B875A52009CB3A9 /* toastMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toastMessages.swift; sourceTree = "<group>"; };
+		428016432B7DF976007461B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		428016452B7E12DE007461B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		428079BD2B6B976A004FD15F /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -71,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423AB3362B7F873500E809A4 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423AB3342B7F873500E809A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423AB3352B7F873500E809A4 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		425E0BD42B6B7F04007B1D84 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +125,7 @@
 				425E0BF02B6B7F43007B1D84 /* StepaTests */,
 				425E0BFA2B6B7F44007B1D84 /* StepaUITests */,
 				425E0BDE2B6B7F05007B1D84 /* Products */,
+				423AB3342B7F873500E809A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,17 +142,26 @@
 		425E0BDF2B6B7F05007B1D84 /* Stepa */ = {
 			isa = PBXGroup;
 			children = (
+				426FA31C2B8619B500907D8A /* Info.plist */,
+				423AB3332B7F873400E809A4 /* Stepa.entitlements */,
 				425E0BE02B6B7F05007B1D84 /* StepaApp.swift */,
 				425E0BE22B6B7F05007B1D84 /* ContentView.swift */,
 				425E0C0A2B6B836B007B1D84 /* SplashView.swift */,
 				428FB39B2B73708500CBEECE /* EnterPin.swift */,
+				427ADB092B875A52009CB3A9 /* toastMessages.swift */,
+				428016452B7E12DE007461B9 /* Constants.swift */,
 				4281DF7F2B750C7A00A414FE /* Dashboard.swift */,
 				4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */,
 				428079BD2B6B976A004FD15F /* OnBoarding.swift */,
 				421265EE2B7210D60063F91A /* Color+Extension.swift */,
 				420434432B7267B4006039A5 /* DeviceVerification.swift */,
+				428016432B7DF976007461B9 /* NetworkManager.swift */,
+				4226DA642B7B6D8A006D5FFC /* ReedemView.swift */,
+				4228185E2B7E3A9500492B9E /* Insurance.swift */,
+				423AB3312B7F3C1500E809A4 /* HealthManager.swift */,
 				42038E012B70C0900083F3ED /* Login.swift */,
 				423CF8CD2B6CD9500085B335 /* RegistrationView.swift */,
+				420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */,
 				4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */,
 				425E0BE42B6B7F42007B1D84 /* Assets.xcassets */,
 				425E0BE62B6B7F42007B1D84 /* Preview Content */,
@@ -290,17 +327,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				42038E022B70C0900083F3ED /* Login.swift in Sources */,
+				4226DA652B7B6D8A006D5FFC /* ReedemView.swift in Sources */,
 				4281DF7C2B74BEDB00A414FE /* RegistrationDetails.swift in Sources */,
 				425E0BE32B6B7F05007B1D84 /* ContentView.swift in Sources */,
 				425E0BE12B6B7F05007B1D84 /* StepaApp.swift in Sources */,
+				428016462B7E12E0007461B9 /* Constants.swift in Sources */,
+				4228185F2B7E3A9500492B9E /* Insurance.swift in Sources */,
 				4281DF7E2B74E30700A414FE /* RegistrationDetailsViewModel.swift in Sources */,
 				428079BE2B6B976A004FD15F /* OnBoarding.swift in Sources */,
 				423CF8CE2B6CD9500085B335 /* RegistrationView.swift in Sources */,
 				425E0C0B2B6B836B007B1D84 /* SplashView.swift in Sources */,
 				420434442B7267B4006039A5 /* DeviceVerification.swift in Sources */,
+				428016442B7DF976007461B9 /* NetworkManager.swift in Sources */,
 				421265EF2B7210D60063F91A /* Color+Extension.swift in Sources */,
+				423AB3322B7F3C1500E809A4 /* HealthManager.swift in Sources */,
 				4281DF802B750C7A00A414FE /* Dashboard.swift in Sources */,
 				428FB39C2B73708500CBEECE /* EnterPin.swift in Sources */,
+				420EB8DF2B8C7D1500B2C2B9 /* UserRegistrationData.swift in Sources */,
+				427ADB0A2B875A54009CB3A9 /* toastMessages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,15 +500,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stepa/Stepa.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stepa/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GK5N5D9KT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stepa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,6 +522,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Stepa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,15 +534,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stepa/Stepa.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Stepa/Preview Content\"";
 				DEVELOPMENT_TEAM = 6GK5N5D9KT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stepa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,6 +556,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Stepa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

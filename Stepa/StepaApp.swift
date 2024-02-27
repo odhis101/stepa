@@ -11,8 +11,11 @@ import SwiftUI
 struct StepaApp: App {
     var body: some Scene {
         WindowGroup {
-            //SplashView()
-            Dashboard()
+             SplashView()
+            //Dashboard()
+           //ReedemView()
+            //Insurance()
+           // Insurance()
         }
 
     }

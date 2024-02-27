@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct DeviceVerification: View {
     @State private var timerValue = 20
@@ -7,11 +8,12 @@ struct DeviceVerification: View {
     @State private var isNavigationActive = false // State variable to track navigation
     @FocusState private var focusedTextField: Int? // Track the focused text field index
     
+    // Inject the network manager
+    @StateObject private var networkManager = NetworkManager()
+    
     var body: some View {
         VStack(spacing: 20) {
             // Animation (Replace with your animation view)
-            
-            
             
             // Title
             Text("Device Verification").font(.title)
@@ -36,7 +38,8 @@ struct DeviceVerification: View {
                                     focusedTextField = index + 1
                                 } else {
                                     focusedTextField = nil
-                                    isNavigationActive = true
+                                    // Uncomment the line below to navigate immediately upon entering the last code
+                                     isNavigationActive = true
                                 }
                             }
                         }
@@ -62,6 +65,11 @@ struct DeviceVerification: View {
                 // Handle resend action
                 self.timerValue = 20
                 self.isResendEnabled = false
+                self.isNavigationActive = true
+
+                // Send the verification codes to the endpoint again
+                //demo purposes only 
+                //networkManager.sendVerificationRequest(verificationCodes: verificationCodes)
             }) {
                 Text("Resend").foregroundColor(.blue)
             }
@@ -70,6 +78,13 @@ struct DeviceVerification: View {
             Spacer()
         }
         .padding()
+        .onReceive(networkManager.$response) { response in
+            // Check if the response is not nil and if its status code is 200
+            if let httpResponse = response, httpResponse.statusCode == 200 {
+                // Navigate to the next screen upon receiving a successful response
+                isNavigationActive = true
+            }
+        }
         .background(
             NavigationLink(
                 destination: EnterPin(), // Destination page to navigate
@@ -79,6 +94,7 @@ struct DeviceVerification: View {
         )
     }
 }
+
 
 struct DeviceVerification_Previews: PreviewProvider {
     static var previews: some View {

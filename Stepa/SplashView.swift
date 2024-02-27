@@ -1,5 +1,7 @@
 import SwiftUI
-
+/*
+ splash view screen 
+ */
 struct SplashView: View {
     @State private var isActive = false
     

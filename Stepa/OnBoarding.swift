@@ -1,4 +1,7 @@
 import SwiftUI
+/*
+ on boarding screen 
+ */
 
 struct OnBoarding: View {
     // Array containing carousel items
@@ -9,8 +12,6 @@ struct OnBoarding: View {
     ]
 
     @State private var currentIndex = 0
-    @State private var isLoginViewActive = false
-    @State private var isRegisterViewActive = false
 
     var body: some View {
         NavigationView {
@@ -33,7 +34,7 @@ struct OnBoarding: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(width: carouselGeometry.size.width, height: carouselGeometry.size.height * 1)
                             }
-                            .frame(height: geometry.size.height * 0.5)
+                            .frame(height: geometry.size.height * 0.4)
 
                             // Carousel Texts
                             ForEach(carouselItems[currentIndex].1.indices, id: \.self) { index in
@@ -49,7 +50,7 @@ struct OnBoarding: View {
 
                         // Buttons Section
                         VStack(spacing: 16) {
-                            NavigationLink(destination: RegistrationView(), isActive: $isRegisterViewActive) {
+                            NavigationLink(destination: RegistrationView()) {
                                 Text("Get Started")
                                     .foregroundColor(.white)
                                     .padding()
@@ -60,15 +61,10 @@ struct OnBoarding: View {
                             .padding(.horizontal, 20)
 
                             // Continue Button
-                            NavigationLink(destination: Login(), isActive: $isLoginViewActive) {
-                                Button(action: {
-                                    // Handle Continue action
-                                    self.isLoginViewActive = true
-                                }) {
+                            NavigationLink(destination: Login()){
                                     Text("Continue")
                                         .foregroundColor(Color(hex: "#00ADE8"))
                                         .padding()
-                                        .background(Color.white)
                                         .cornerRadius(8)
                                         .frame(maxWidth: .infinity)
                                         .overlay(
@@ -77,7 +73,9 @@ struct OnBoarding: View {
                                         )
                                 }
                                 .padding(.horizontal, 20)
-                            }
+                            
+                        
+
                             .padding(.vertical, 16)
                         }
                     }

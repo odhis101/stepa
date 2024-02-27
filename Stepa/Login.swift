@@ -1,23 +1,29 @@
 import SwiftUI
-
+/*
+ login screen
+ */
 
 struct Login: View {
+
     var body: some View {
+        NavigationView {
             GeometryReader { geometry in
                 ZStack {
                     Color.clear // Background color
                     
-                    VStack(spacing: 0) { 
+                    VStack(spacing: 0) {
+                        
                     
                         BlueBoxView()
                             .frame(maxWidth: .infinity, maxHeight: geometry.size.height / 2)
+            
                         
                         WhiteBoxView()
                             .frame(maxWidth: .infinity, maxHeight: geometry.size.height / 2+10)
                             .alignmentGuide(.top, computeValue: { dimension in
                                 -dimension[.bottom] / 2 + 20
                             })
-                            .padding(.top, 10) // Add top padding
+                            .padding(.top, 20) // Add top padding
 
                     }
                     
@@ -26,8 +32,15 @@ struct Login: View {
                         .position(x: geometry.size.width / 2, y: geometry.size.height / 2 - 15)
                 }
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+            
             }
+            .navigationBarHidden(true)
+
+        }
+        .navigationBarHidden(true)
+
     }
+    
 }
 
 
@@ -42,19 +55,15 @@ struct BlueBoxView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.3) // Adjusted height here
-                    .padding(.top, geometry.size.height * -0.3)
+                    
                 Spacer()
-              
-
-
+                
                     }
             .frame(maxWidth: .infinity, maxHeight: geometry.size.height) // Use the full height of the BlueBox
             .background(Color(hex: "#00ADE8"))
         }
     }
 }
-
-
 
 struct WhiteBoxView: View {
     var body: some View {
@@ -78,53 +87,47 @@ struct WhiteBoxView: View {
             }
             .padding(.horizontal, 10) // Adjust padding as needed
             
-            HStack(spacing: 20) {
+            HStack(spacing:20) {
                 // First icon image
-                VStack {
                     Image("apple") // Replace "icon1" with the name of your first icon image
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 30, height: 30)
-                }
                 
-                VStack {
+                
                     Image("google")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 30, height: 30) // Adjust size as needed
-                    
-                }
                 
-                VStack {
                     Image("Samsung")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 30, height: 30) // Adjust size as needed
-                    
-                }
-                VStack {
+                
                     Image("Huawei")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 40, height: 40) // Adjust size as needed
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 50, height:50) // Adjust size as needed
                     
-                }
-                .padding(.bottom, 40)
+                
+  
             }
         }
     }
 }
 
-
-
-
 struct OverlappingBoxView: View {
-    @State private var phoneNumber = ""
-    @State private var password = ""
+    @State private var phoneNumberss = ""
+    @State private var passwordsss = ""
     @State private var isUnauthorizedModalPresented = false
-    @State private var isActive = false // Activate navigation
+    @State private var isRegistrationViewPresented = false
+    @State private var isActive = false
+
+
+    //@State private var isActive = false // Activate navigation
     var body: some View {
-        VStack(spacing: 20) {
+        VStack() {
             Text("Welcome to ")
                 .font(.title)
             +
@@ -137,45 +140,62 @@ struct OverlappingBoxView: View {
                 .multilineTextAlignment(.leading)
 
             
-            // Phone number input field
-            HStack(spacing: 10) {
-                Image("kenya") // Assuming "kenya" is the name of the flag image
-                    .resizable()
-                    .frame(width: 30, height: 20) // Adjust size as needed
-                
-                Text("+254") // Country code
-                
-                Spacer()
-                
-                TextField("Phone Number", text: $phoneNumber)
-                    .padding()
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(8)
-            }
-            
-            // Password input field
-            SecureField("Password", text: $password)
+
+            ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .foregroundColor(Color.gray.opacity(0.2))
+                            .frame(height: 50) // Adjust height as needed
+                            .padding()
+                            .frame(width: 330) // Adjust for padding
+
+                        
+                        HStack(spacing:5) {
+                            Image("kenya")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 30, height: 30) // Adjust size as needed
+                                .padding(.leading,10)
+                            Text("(+254)")
+                                .font(.subheadline)
+                                .foregroundColor(.gray)
+                            
+                            Spacer()
+                            
+                            TextField("Phone Number", text: $phoneNumberss)
+                                .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 0))
+                        }
+                        .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
+                    }
+     
+            SecureField("Password", text: $passwordsss)
                 .padding()
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(8)
             
             // Forgot Password link
+            HStack{
+                Spacer()
             Text("Forgot Password")
                 .font(.subheadline)
-                .foregroundColor(.blue)
+                .foregroundColor(.gray)
                 .multilineTextAlignment(.trailing)
+            }
 
             
             // Login button
-            LoginButton(phoneNumber: $phoneNumber, password: $password, isUnauthorizedModalPresented: $isUnauthorizedModalPresented, isActive: $isActive)
+            LoginButton(phoneNumber: $phoneNumberss, password: $passwordsss, isUnauthorizedModalPresented: $isUnauthorizedModalPresented, isActive: $isActive)
+    
                         
-            
+            HStack{
+                
+                Text("Not a member? ")
+                    .multilineTextAlignment(.trailing)
             NavigationLink(destination: RegistrationView()) {
-                         Text("Not a member? Signup")
+                         Text("Signup")
                              .font(.subheadline)
-                             .foregroundColor(.blue)
                              .multilineTextAlignment(.trailing)
                      }
+            }
         }
         .padding()
         .background(Color.white)
@@ -183,11 +203,7 @@ struct OverlappingBoxView: View {
         .shadow(radius: 2)
         .padding(.bottom, 20) // Add more space below the white box
         .offset(y: -10) // Move the overlapping box slightly higher
-        .background(
-            NavigationLink(destination: RegistrationView(), isActive: $isActive) {
-                EmptyView()
-            }
-        )
+        
         
         
     }
@@ -199,36 +215,66 @@ struct LoginButton: View {
     @Binding var password: String
     @Binding var isUnauthorizedModalPresented: Bool
     @Binding var isActive: Bool // Bind isActive here
+    @State private var isLoading: Bool = false // Track loading state
+    @State private var isShowingAlert = false
+    @State private var alertMessage = ""
+    let networkManager = NetworkManager() // Create an instance of NetworkManager
 
     var body: some View {
         Button(action: {
-            // Perform login action
-            AuthService.shared.login(phoneNumber: phoneNumber, password: password) { result in
+            isLoading = true // Set loading state to true
+            networkManager.login(phoneNumber: phoneNumber, password: password) { result in
                 switch result {
                 case .success:
                     // Navigate to another view on successful login
                     print("Login successful")
                     isActive = true // Activate navigation
+                    isLoading = false // Set loading state to false
 
                 case .failure(let error):
                     // Show unauthorized modal on 401 error
                     if case AuthServiceError.unauthorized = error {
                         isUnauthorizedModalPresented = true
+                        alertMessage = "Your credentials are wrong"
+                        isShowingAlert = true
                     } else {
                         // Handle other errors
+                        alertMessage = "Your credentials are wrong"
+                        isShowingAlert = true
                         print("Error: \(error)")
                     }
+                    isLoading = false // Set loading state to false
                 }
             }
         }) {
-            Text("Login")
-                .fontWeight(.bold)
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color(hex: "#00ADE8"))
-                .foregroundColor(.white)
-                .cornerRadius(5)
+            if isLoading {
+                // Show loader if isLoading is true
+                ProgressView()
+                    .padding()
+                    .background(Color(hex: "#00ADE8"))
+                    .foregroundColor(.white)
+                    .cornerRadius(5)
+            } else {
+                // Show login button if isLoading is false
+                Text("Login")
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color(hex: "#00ADE8"))
+                    .foregroundColor(.white)
+                    .cornerRadius(5)
+            }
         }
+        .disabled(isLoading) // Disable button while loading
+        .alert(isPresented: $isShowingAlert) {
+            Alert(title: Text("Error"), message: Text(alertMessage), dismissButton: .default(Text("OK")))
+        }
+        .background(
+            NavigationLink(destination: Dashboard(), isActive: $isActive) {
+                EmptyView()
+            }
+            .hidden()
+        )
     }
 }
 

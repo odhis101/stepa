@@ -2,15 +2,17 @@ import SwiftUI
 
 struct RegistrationView: View {
     @State private var fullName = ""
-    @State private var phoneNumber = ""
+    @State private var phoneNumberss = ""
     @State private var emailAddress = ""
     @State private var agreedToTerms = false
     @State private var isDeviceVerificationActive = false
     
-    @State private var showToast = false // State variable to control toast visibility
     @ObservedObject var viewModel = RegistrationDetailsViewModel()
+    @StateObject var userData = UserRegistrationData()
+
 
     var body: some View {
+        NavigationView{
         ZStack {
             // Main content
             VStack {
@@ -35,21 +37,32 @@ struct RegistrationView: View {
                         .background(Color.gray.opacity(0.2))
                         .cornerRadius(8)
                     
-                    // Phone Number
-                    HStack(spacing: 10) {
-                        Image("kenya")
-                            .resizable()
-                            .frame(width: 30, height: 20)
-                        
-                        Text("+254")
-                        
-                        Spacer()
-                        
-                        TextField("Phone Number", text: $phoneNumber)
-                            .padding()
-                            .background(Color.gray.opacity(0.2))
-                            .cornerRadius(8)
-                    }
+                    // Phone number input field
+                    ZStack {
+                                RoundedRectangle(cornerRadius: 8)
+                                    .foregroundColor(Color.gray.opacity(0.2))
+                                    .frame(height: 50) // Adjust height as needed
+                                    .padding()
+                                    .frame(width: 360) // Adjust for padding
+
+                                
+                                HStack(spacing: 10) {
+                                    Image("kenya")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 30, height: 30) // Adjust size as needed
+                                        .padding(.leading,10)
+                                    
+                                    Text("(+254)")
+                                        .font(.subheadline)
+                                        .foregroundColor(.gray)
+                                    Spacer()
+                                    
+                                    TextField("Phone Number", text: $phoneNumberss)
+                                        .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 0)) // Adjust padding as needed
+                                }
+                                .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8)) // Adjust padding as needed
+                            }
                     
                     // Email Address
                     TextField("Email Address", text: $emailAddress)
@@ -70,19 +83,20 @@ struct RegistrationView: View {
                     
                     Spacer()
                 }
+     
                 .padding()
                 
                 // Continue Button
                 Button(action: {
+                    setData() // Update the view model with entered information
                     
-                    //showToast = true // Show toast before navigating
-                    self.isDeviceVerificationActive = true
-/*
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    if agreedToTerms {
+                        // Proceed with navigation only if terms are agreed
                         self.isDeviceVerificationActive = true
-                    }
- */
-                }) {
+                    } else {
+                        // Handle case where terms are not agreed
+                        // You can show an alert or some other UI indicating that terms need to be agreed
+                    }                }) {
                     Text("Continue")
                         .foregroundColor(.white)
                         .padding()
@@ -99,16 +113,30 @@ struct RegistrationView: View {
                     isActive: $isDeviceVerificationActive,
                     label: { EmptyView() }
                 )
+                .disabled(!agreedToTerms) // Disable the NavigationLink if terms are not agreed
+                
+                HStack{
+                NavigationLink(destination: Login()) {
+                             Text("Already a member? Login")
+                                 .font(.subheadline)
+                                 .foregroundColor(.blue)
+                                 .multilineTextAlignment(.trailing)
+                         }
+                }
             }
-            .blur(radius: showToast ? 5 : 0) // Apply blur effect if showToast is true
-            
-            // Toast
-
         }
     }
-    func setData(){
-        let vdata = RegistrationDetailsViewModel()
-        vdata.registrationDetails.FULLNAME = fullName
+        .navigationBarHidden(true)
+}
+    func setData() {
+        // Update the view model with entered information
+        print("this is meant to be the fullname",fullName)
+        self.userData.phoneNumber = self.phoneNumberss
+        self.userData.emailAddress = self.emailAddress
+        self.userData.agreedToTerms = self.agreedToTerms
+        print("this is meant to be the from the getter ", viewModel.registrationDetails.fullName )
+
+        
     }
 }
 
@@ -129,51 +157,6 @@ struct CheckboxFieldView: View {
                         .foregroundColor(.blue)
                 }
             }
-        }
-    }
-}
-
-struct ToastView: View {
-    let message: String
-    let continueAction: () -> Void // Action to perform when continue button is tapped
-    
-    var body: some View {
-        ZStack {
-            VStack {
-                Spacer()
-                HStack {
-                    Spacer()
-                    Button(action: {
-                        continueAction()
-                    }) {
-                        Text("Continue")
-                            .foregroundColor(.white)
-                            .padding(.vertical, 10)
-                            .padding(.horizontal, 20)
-                            .background(Color.black) // Background color of the continue button
-                            .cornerRadius(8)
-                    }
-                }
-            }
-            .frame(maxHeight: .infinity, alignment: .bottom)
-            .padding(.bottom, 20)
-            
-            VStack {
-                Text(message)
-                    .foregroundColor(.white)
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 20)
-                    .background(Color(hex: "#00ADE8"))
-                    .cornerRadius(15)
-                    .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
-                    .padding(.horizontal, 20)
-                    .padding(.bottom, 20) // Adjust bottom padding for spacing
-                    .transition(.move(edge: .bottom))
-            }
-            .frame(maxWidth: .infinity)
-            .background(Color.white.opacity(0.7)) // White background
-            .cornerRadius(20)
-            .padding(.horizontal, 20)
         }
     }
 }
