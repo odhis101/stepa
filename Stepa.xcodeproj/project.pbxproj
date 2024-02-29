@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42038E022B70C0900083F3ED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42038E012B70C0900083F3ED /* Login.swift */; };
-		420434442B7267B4006039A5 /* DeviceVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420434432B7267B4006039A5 /* DeviceVerification.swift */; };
-		420EB8DF2B8C7D1500B2C2B9 /* UserRegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */; };
-		421265EF2B7210D60063F91A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421265EE2B7210D60063F91A /* Color+Extension.swift */; };
-		4226DA652B7B6D8A006D5FFC /* ReedemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4226DA642B7B6D8A006D5FFC /* ReedemView.swift */; };
-		4228185F2B7E3A9500492B9E /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228185E2B7E3A9500492B9E /* Insurance.swift */; };
-		423AB3322B7F3C1500E809A4 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423AB3312B7F3C1500E809A4 /* HealthManager.swift */; };
 		423AB3362B7F873500E809A4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423AB3352B7F873500E809A4 /* HealthKit.framework */; };
-		423CF8CE2B6CD9500085B335 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CF8CD2B6CD9500085B335 /* RegistrationView.swift */; };
 		425E0BE12B6B7F05007B1D84 /* StepaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BE02B6B7F05007B1D84 /* StepaApp.swift */; };
-		425E0BE32B6B7F05007B1D84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BE22B6B7F05007B1D84 /* ContentView.swift */; };
 		425E0BE52B6B7F42007B1D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425E0BE42B6B7F42007B1D84 /* Assets.xcassets */; };
 		425E0BE82B6B7F42007B1D84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425E0BE72B6B7F42007B1D84 /* Preview Assets.xcassets */; };
 		425E0BF22B6B7F43007B1D84 /* StepaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BF12B6B7F43007B1D84 /* StepaTests.swift */; };
 		425E0BFC2B6B7F44007B1D84 /* StepaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BFB2B6B7F44007B1D84 /* StepaUITests.swift */; };
 		425E0BFE2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0BFD2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift */; };
-		425E0C0B2B6B836B007B1D84 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E0C0A2B6B836B007B1D84 /* SplashView.swift */; };
-		427ADB0A2B875A54009CB3A9 /* toastMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427ADB092B875A52009CB3A9 /* toastMessages.swift */; };
-		428016442B7DF976007461B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428016432B7DF976007461B9 /* NetworkManager.swift */; };
-		428016462B7E12E0007461B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428016452B7E12DE007461B9 /* Constants.swift */; };
-		428079BE2B6B976A004FD15F /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428079BD2B6B976A004FD15F /* OnBoarding.swift */; };
-		4281DF7C2B74BEDB00A414FE /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */; };
-		4281DF7E2B74E30700A414FE /* RegistrationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */; };
-		4281DF802B750C7A00A414FE /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4281DF7F2B750C7A00A414FE /* Dashboard.swift */; };
-		428FB39C2B73708500CBEECE /* EnterPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FB39B2B73708500CBEECE /* EnterPin.swift */; };
+		42BF9C022B90C145007D5A56 /* DeviceVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BEF2B90C144007D5A56 /* DeviceVerification.swift */; };
+		42BF9C032B90C145007D5A56 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF02B90C144007D5A56 /* Color+Extension.swift */; };
+		42BF9C042B90C145007D5A56 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF12B90C144007D5A56 /* HealthManager.swift */; };
+		42BF9C052B90C145007D5A56 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF22B90C144007D5A56 /* RegistrationView.swift */; };
+		42BF9C062B90C145007D5A56 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF32B90C144007D5A56 /* OnBoarding.swift */; };
+		42BF9C072B90C145007D5A56 /* UserRegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF42B90C144007D5A56 /* UserRegistrationData.swift */; };
+		42BF9C082B90C145007D5A56 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF52B90C144007D5A56 /* Insurance.swift */; };
+		42BF9C092B90C145007D5A56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF62B90C144007D5A56 /* Constants.swift */; };
+		42BF9C0A2B90C145007D5A56 /* ReedemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF72B90C144007D5A56 /* ReedemView.swift */; };
+		42BF9C0B2B90C145007D5A56 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF82B90C144007D5A56 /* Login.swift */; };
+		42BF9C0C2B90C145007D5A56 /* EnterPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BF92B90C144007D5A56 /* EnterPin.swift */; };
+		42BF9C0D2B90C145007D5A56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BFA2B90C144007D5A56 /* ContentView.swift */; };
+		42BF9C0E2B90C145007D5A56 /* RegistrationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BFB2B90C145007D5A56 /* RegistrationDetailsViewModel.swift */; };
+		42BF9C0F2B90C145007D5A56 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BFC2B90C145007D5A56 /* SplashView.swift */; };
+		42BF9C102B90C145007D5A56 /* toastMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BFD2B90C145007D5A56 /* toastMessages.swift */; };
+		42BF9C122B90C145007D5A56 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9BFF2B90C145007D5A56 /* Dashboard.swift */; };
+		42BF9C132B90C145007D5A56 /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9C002B90C145007D5A56 /* RegistrationDetails.swift */; };
+		42BF9C142B90C145007D5A56 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF9C012B90C145007D5A56 /* NetworkManager.swift */; };
+		5B571C9061CD4644AC384017 /* Pods_Stepa_StepaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF88D4012A787ACCCDA5AC02 /* Pods_Stepa_StepaUITests.framework */; };
+		B635F118F3A0FC54C8C814F0 /* Pods_StepaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492C94E310982FF3D52035A5 /* Pods_StepaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,19 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		42038E012B70C0900083F3ED /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		420434432B7267B4006039A5 /* DeviceVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVerification.swift; sourceTree = "<group>"; };
-		420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationData.swift; sourceTree = "<group>"; };
-		421265EE2B7210D60063F91A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		4226DA642B7B6D8A006D5FFC /* ReedemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReedemView.swift; sourceTree = "<group>"; };
-		4228185E2B7E3A9500492B9E /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
-		423AB3312B7F3C1500E809A4 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		3BF5FFA387B33ACA22FE17D1 /* Pods-StepaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepaTests.release.xcconfig"; path = "Target Support Files/Pods-StepaTests/Pods-StepaTests.release.xcconfig"; sourceTree = "<group>"; };
 		423AB3332B7F873400E809A4 /* Stepa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stepa.entitlements; sourceTree = "<group>"; };
 		423AB3352B7F873500E809A4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		423CF8CD2B6CD9500085B335 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		425E0BDD2B6B7F05007B1D84 /* Stepa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425E0BE02B6B7F05007B1D84 /* StepaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaApp.swift; sourceTree = "<group>"; };
-		425E0BE22B6B7F05007B1D84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		425E0BE42B6B7F42007B1D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		425E0BE72B6B7F42007B1D84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		425E0BED2B6B7F43007B1D84 /* StepaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,16 +66,33 @@
 		425E0BF72B6B7F43007B1D84 /* StepaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425E0BFB2B6B7F44007B1D84 /* StepaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaUITests.swift; sourceTree = "<group>"; };
 		425E0BFD2B6B7F44007B1D84 /* StepaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		425E0C0A2B6B836B007B1D84 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		426FA31C2B8619B500907D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		427ADB092B875A52009CB3A9 /* toastMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toastMessages.swift; sourceTree = "<group>"; };
-		428016432B7DF976007461B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		428016452B7E12DE007461B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		428079BD2B6B976A004FD15F /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
-		4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
-		4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetailsViewModel.swift; sourceTree = "<group>"; };
-		4281DF7F2B750C7A00A414FE /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
-		428FB39B2B73708500CBEECE /* EnterPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPin.swift; sourceTree = "<group>"; };
+		42BF9BEF2B90C144007D5A56 /* DeviceVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceVerification.swift; path = ../../../.Trash/DeviceVerification.swift; sourceTree = "<group>"; };
+		42BF9BF02B90C144007D5A56 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+Extension.swift"; path = "../../../.Trash/Color+Extension.swift"; sourceTree = "<group>"; };
+		42BF9BF12B90C144007D5A56 /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthManager.swift; path = ../../../.Trash/HealthManager.swift; sourceTree = "<group>"; };
+		42BF9BF22B90C144007D5A56 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationView.swift; path = ../../../.Trash/RegistrationView.swift; sourceTree = "<group>"; };
+		42BF9BF32B90C144007D5A56 /* OnBoarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoarding.swift; path = ../../../.Trash/OnBoarding.swift; sourceTree = "<group>"; };
+		42BF9BF42B90C144007D5A56 /* UserRegistrationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRegistrationData.swift; path = ../../../.Trash/UserRegistrationData.swift; sourceTree = "<group>"; };
+		42BF9BF52B90C144007D5A56 /* Insurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Insurance.swift; path = ../../../.Trash/Insurance.swift; sourceTree = "<group>"; };
+		42BF9BF62B90C144007D5A56 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../.Trash/Constants.swift; sourceTree = "<group>"; };
+		42BF9BF72B90C144007D5A56 /* ReedemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReedemView.swift; path = ../../../.Trash/ReedemView.swift; sourceTree = "<group>"; };
+		42BF9BF82B90C144007D5A56 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ../../../.Trash/Login.swift; sourceTree = "<group>"; };
+		42BF9BF92B90C144007D5A56 /* EnterPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnterPin.swift; path = ../../../.Trash/EnterPin.swift; sourceTree = "<group>"; };
+		42BF9BFA2B90C144007D5A56 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../.Trash/ContentView.swift; sourceTree = "<group>"; };
+		42BF9BFB2B90C145007D5A56 /* RegistrationDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationDetailsViewModel.swift; path = ../../../.Trash/RegistrationDetailsViewModel.swift; sourceTree = "<group>"; };
+		42BF9BFC2B90C145007D5A56 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = ../../../.Trash/SplashView.swift; sourceTree = "<group>"; };
+		42BF9BFD2B90C145007D5A56 /* toastMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = toastMessages.swift; path = ../../../.Trash/toastMessages.swift; sourceTree = "<group>"; };
+		42BF9BFF2B90C145007D5A56 /* Dashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dashboard.swift; path = ../../../.Trash/Dashboard.swift; sourceTree = "<group>"; };
+		42BF9C002B90C145007D5A56 /* RegistrationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationDetails.swift; path = ../../../.Trash/RegistrationDetails.swift; sourceTree = "<group>"; };
+		42BF9C012B90C145007D5A56 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../../.Trash/NetworkManager.swift; sourceTree = "<group>"; };
+		492C94E310982FF3D52035A5 /* Pods_StepaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E68948D666A0F3FF717257 /* Pods-Stepa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepa.debug.xcconfig"; path = "Target Support Files/Pods-Stepa/Pods-Stepa.debug.xcconfig"; sourceTree = "<group>"; };
+		776F491CC5B27353CBEC636B /* Pods-Stepa-StepaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepa-StepaUITests.release.xcconfig"; path = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839A99B4752C4EE43606AB7B /* Pods-Stepa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepa.release.xcconfig"; path = "Target Support Files/Pods-Stepa/Pods-Stepa.release.xcconfig"; sourceTree = "<group>"; };
+		9F5925F3C6CBD6B08465A920 /* Pods-StepaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepaTests.debug.xcconfig"; path = "Target Support Files/Pods-StepaTests/Pods-StepaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C278039E8571FBBD9F432E /* Pods_Stepa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C4BF96F03FFD57AD4581E9 /* Pods-Stepa-StepaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stepa-StepaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF88D4012A787ACCCDA5AC02 /* Pods_Stepa_StepaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stepa_StepaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B635F118F3A0FC54C8C814F0 /* Pods_StepaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B571C9061CD4644AC384017 /* Pods_Stepa_StepaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				423AB3352B7F873500E809A4 /* HealthKit.framework */,
+				A5C278039E8571FBBD9F432E /* Pods_Stepa.framework */,
+				CF88D4012A787ACCCDA5AC02 /* Pods_Stepa_StepaUITests.framework */,
+				492C94E310982FF3D52035A5 /* Pods_StepaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +142,7 @@
 				425E0BFA2B6B7F44007B1D84 /* StepaUITests */,
 				425E0BDE2B6B7F05007B1D84 /* Products */,
 				423AB3342B7F873500E809A4 /* Frameworks */,
+				42F0AB8B4BED5148597084F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,24 +162,24 @@
 				426FA31C2B8619B500907D8A /* Info.plist */,
 				423AB3332B7F873400E809A4 /* Stepa.entitlements */,
 				425E0BE02B6B7F05007B1D84 /* StepaApp.swift */,
-				425E0BE22B6B7F05007B1D84 /* ContentView.swift */,
-				425E0C0A2B6B836B007B1D84 /* SplashView.swift */,
-				428FB39B2B73708500CBEECE /* EnterPin.swift */,
-				427ADB092B875A52009CB3A9 /* toastMessages.swift */,
-				428016452B7E12DE007461B9 /* Constants.swift */,
-				4281DF7F2B750C7A00A414FE /* Dashboard.swift */,
-				4281DF7B2B74BEDA00A414FE /* RegistrationDetails.swift */,
-				428079BD2B6B976A004FD15F /* OnBoarding.swift */,
-				421265EE2B7210D60063F91A /* Color+Extension.swift */,
-				420434432B7267B4006039A5 /* DeviceVerification.swift */,
-				428016432B7DF976007461B9 /* NetworkManager.swift */,
-				4226DA642B7B6D8A006D5FFC /* ReedemView.swift */,
-				4228185E2B7E3A9500492B9E /* Insurance.swift */,
-				423AB3312B7F3C1500E809A4 /* HealthManager.swift */,
-				42038E012B70C0900083F3ED /* Login.swift */,
-				423CF8CD2B6CD9500085B335 /* RegistrationView.swift */,
-				420EB8DE2B8C7D1400B2C2B9 /* UserRegistrationData.swift */,
-				4281DF7D2B74E30700A414FE /* RegistrationDetailsViewModel.swift */,
+				42BF9BF52B90C144007D5A56 /* Insurance.swift */,
+				42BF9BF82B90C144007D5A56 /* Login.swift */,
+				42BF9C012B90C145007D5A56 /* NetworkManager.swift */,
+				42BF9BF02B90C144007D5A56 /* Color+Extension.swift */,
+				42BF9BF62B90C144007D5A56 /* Constants.swift */,
+				42BF9BFA2B90C144007D5A56 /* ContentView.swift */,
+				42BF9BFF2B90C145007D5A56 /* Dashboard.swift */,
+				42BF9BF92B90C144007D5A56 /* EnterPin.swift */,
+				42BF9BF32B90C144007D5A56 /* OnBoarding.swift */,
+				42BF9BF72B90C144007D5A56 /* ReedemView.swift */,
+				42BF9C002B90C145007D5A56 /* RegistrationDetails.swift */,
+				42BF9BFB2B90C145007D5A56 /* RegistrationDetailsViewModel.swift */,
+				42BF9BFC2B90C145007D5A56 /* SplashView.swift */,
+				42BF9BFD2B90C145007D5A56 /* toastMessages.swift */,
+				42BF9BEF2B90C144007D5A56 /* DeviceVerification.swift */,
+				42BF9BF12B90C144007D5A56 /* HealthManager.swift */,
+				42BF9BF22B90C144007D5A56 /* RegistrationView.swift */,
+				42BF9BF42B90C144007D5A56 /* UserRegistrationData.swift */,
 				425E0BE42B6B7F42007B1D84 /* Assets.xcassets */,
 				425E0BE62B6B7F42007B1D84 /* Preview Content */,
 			);
@@ -194,6 +211,19 @@
 			path = StepaUITests;
 			sourceTree = "<group>";
 		};
+		42F0AB8B4BED5148597084F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E68948D666A0F3FF717257 /* Pods-Stepa.debug.xcconfig */,
+				839A99B4752C4EE43606AB7B /* Pods-Stepa.release.xcconfig */,
+				A7C4BF96F03FFD57AD4581E9 /* Pods-Stepa-StepaUITests.debug.xcconfig */,
+				776F491CC5B27353CBEC636B /* Pods-Stepa-StepaUITests.release.xcconfig */,
+				9F5925F3C6CBD6B08465A920 /* Pods-StepaTests.debug.xcconfig */,
+				3BF5FFA387B33ACA22FE17D1 /* Pods-StepaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 425E0C012B6B7F44007B1D84 /* Build configuration list for PBXNativeTarget "Stepa" */;
 			buildPhases = (
+				75996333A5417BCFF82F925C /* [CP] Check Pods Manifest.lock */,
 				425E0BD92B6B7F05007B1D84 /* Sources */,
 				425E0BDA2B6B7F05007B1D84 /* Frameworks */,
 				425E0BDB2B6B7F05007B1D84 /* Resources */,
@@ -218,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 425E0C042B6B7F44007B1D84 /* Build configuration list for PBXNativeTarget "StepaTests" */;
 			buildPhases = (
+				10A51F46E8350CAB1CF24890 /* [CP] Check Pods Manifest.lock */,
 				425E0BE92B6B7F43007B1D84 /* Sources */,
 				425E0BEA2B6B7F43007B1D84 /* Frameworks */,
 				425E0BEB2B6B7F43007B1D84 /* Resources */,
@@ -236,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 425E0C072B6B7F44007B1D84 /* Build configuration list for PBXNativeTarget "StepaUITests" */;
 			buildPhases = (
+				773A298077CFE8920BDE1A3D /* [CP] Check Pods Manifest.lock */,
 				425E0BF32B6B7F43007B1D84 /* Sources */,
 				425E0BF42B6B7F43007B1D84 /* Frameworks */,
 				425E0BF52B6B7F43007B1D84 /* Resources */,
@@ -282,8 +315,6 @@
 				Base,
 			);
 			mainGroup = 425E0BD42B6B7F04007B1D84;
-			packageReferences = (
-			);
 			productRefGroup = 425E0BDE2B6B7F05007B1D84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,30 +352,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10A51F46E8350CAB1CF24890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75996333A5417BCFF82F925C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stepa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${SRCROOT}/Podfile.lock\" \"${SRCROOT}/Pods/Manifest.lock\" > /dev/null\n\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773A298077CFE8920BDE1A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stepa-StepaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		425E0BD92B6B7F05007B1D84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42038E022B70C0900083F3ED /* Login.swift in Sources */,
-				4226DA652B7B6D8A006D5FFC /* ReedemView.swift in Sources */,
-				4281DF7C2B74BEDB00A414FE /* RegistrationDetails.swift in Sources */,
-				425E0BE32B6B7F05007B1D84 /* ContentView.swift in Sources */,
+				42BF9C032B90C145007D5A56 /* Color+Extension.swift in Sources */,
+				42BF9C052B90C145007D5A56 /* RegistrationView.swift in Sources */,
+				42BF9C0B2B90C145007D5A56 /* Login.swift in Sources */,
 				425E0BE12B6B7F05007B1D84 /* StepaApp.swift in Sources */,
-				428016462B7E12E0007461B9 /* Constants.swift in Sources */,
-				4228185F2B7E3A9500492B9E /* Insurance.swift in Sources */,
-				4281DF7E2B74E30700A414FE /* RegistrationDetailsViewModel.swift in Sources */,
-				428079BE2B6B976A004FD15F /* OnBoarding.swift in Sources */,
-				423CF8CE2B6CD9500085B335 /* RegistrationView.swift in Sources */,
-				425E0C0B2B6B836B007B1D84 /* SplashView.swift in Sources */,
-				420434442B7267B4006039A5 /* DeviceVerification.swift in Sources */,
-				428016442B7DF976007461B9 /* NetworkManager.swift in Sources */,
-				421265EF2B7210D60063F91A /* Color+Extension.swift in Sources */,
-				423AB3322B7F3C1500E809A4 /* HealthManager.swift in Sources */,
-				4281DF802B750C7A00A414FE /* Dashboard.swift in Sources */,
-				428FB39C2B73708500CBEECE /* EnterPin.swift in Sources */,
-				420EB8DF2B8C7D1500B2C2B9 /* UserRegistrationData.swift in Sources */,
-				427ADB0A2B875A54009CB3A9 /* toastMessages.swift in Sources */,
+				42BF9C0C2B90C145007D5A56 /* EnterPin.swift in Sources */,
+				42BF9C082B90C145007D5A56 /* Insurance.swift in Sources */,
+				42BF9C0D2B90C145007D5A56 /* ContentView.swift in Sources */,
+				42BF9C122B90C145007D5A56 /* Dashboard.swift in Sources */,
+				42BF9C022B90C145007D5A56 /* DeviceVerification.swift in Sources */,
+				42BF9C142B90C145007D5A56 /* NetworkManager.swift in Sources */,
+				42BF9C0E2B90C145007D5A56 /* RegistrationDetailsViewModel.swift in Sources */,
+				42BF9C102B90C145007D5A56 /* toastMessages.swift in Sources */,
+				42BF9C042B90C145007D5A56 /* HealthManager.swift in Sources */,
+				42BF9C0F2B90C145007D5A56 /* SplashView.swift in Sources */,
+				42BF9C132B90C145007D5A56 /* RegistrationDetails.swift in Sources */,
+				42BF9C072B90C145007D5A56 /* UserRegistrationData.swift in Sources */,
+				42BF9C0A2B90C145007D5A56 /* ReedemView.swift in Sources */,
+				42BF9C062B90C145007D5A56 /* OnBoarding.swift in Sources */,
+				42BF9C092B90C145007D5A56 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +597,7 @@
 		};
 		425E0C022B6B7F44007B1D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E68948D666A0F3FF717257 /* Pods-Stepa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,7 +610,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stepa/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your step count data to track your daily activity and provide personalized insights.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -531,6 +632,7 @@
 		};
 		425E0C032B6B7F44007B1D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839A99B4752C4EE43606AB7B /* Pods-Stepa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,7 +645,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stepa/Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your step count data to track your daily activity and provide personalized insights.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -565,6 +667,7 @@
 		};
 		425E0C052B6B7F44007B1D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5925F3C6CBD6B08465A920 /* Pods-StepaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +687,7 @@
 		};
 		425E0C062B6B7F44007B1D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF5FFA387B33ACA22FE17D1 /* Pods-StepaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -603,6 +707,7 @@
 		};
 		425E0C082B6B7F44007B1D84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C4BF96F03FFD57AD4581E9 /* Pods-Stepa-StepaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,6 +725,7 @@
 		};
 		425E0C092B6B7F44007B1D84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776F491CC5B27353CBEC636B /* Pods-Stepa-StepaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

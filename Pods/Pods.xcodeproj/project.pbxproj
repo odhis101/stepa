@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E15EDACD31EE1F555738336FF40D068 /* Pods-StepaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649BE26C969287734E25697131FC1C5D /* Pods-StepaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469B1E01468E8C65B75A79D8842D6FF3 /* Pods-StepaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF625B0B0E7F1FB8D468C9C361BDA4D /* Pods-StepaTests-dummy.m */; };
+		5DCDEB3350FCB136067A25C0FCF9A474 /* Pods-Stepa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C73D83F75661572FCB25C57255410BD /* Pods-Stepa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D3C68603C0EEA2820EF286CD9A33A5 /* Pods-Stepa-StepaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624194C1A881DA14A8B6A2BF0AD2F2B7 /* Pods-Stepa-StepaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF26421CABE089E5D605FD816714F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA9A7B96890AA032BBA64BD12E2ADA8F /* Pods-Stepa-StepaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F4B78926B06378B41559FED8920CF /* Pods-Stepa-StepaUITests-dummy.m */; };
+		C0A3F9E325796C7BE3B4CBAA6A29735F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9E01DCDD2970B48459395D5DD909E70 /* Pods-Stepa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4A74C2C58C467751486D3AD69E309C /* Pods-Stepa-dummy.m */; };
+		D58FE41A3AA69780EE8E624085711C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D5DA3E5AC657C148E20CD341CD06E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667B6E60D42744064E7833283DC8B481;
+			remoteInfo = "Pods-Stepa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02895569FBE4A3C8933FD37EC27FEDF9 /* Pods-Stepa-StepaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepa-StepaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07D721E6E4755E94889FD4B4312262D3 /* Pods-Stepa-StepaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stepa-StepaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FC7127408B188FECBA2F06C595EA3E4 /* Pods-StepaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StepaTests"; path = Pods_StepaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FABAA96BE090FDD530B41971F4806E /* Pods-Stepa-StepaUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Stepa-StepaUITests"; path = Pods_Stepa_StepaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C73D83F75661572FCB25C57255410BD /* Pods-Stepa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stepa-umbrella.h"; sourceTree = "<group>"; };
+		282F4B78926B06378B41559FED8920CF /* Pods-Stepa-StepaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stepa-StepaUITests-dummy.m"; sourceTree = "<group>"; };
+		2DAB473509EE5AFD6F40F45B28EC3C7E /* Pods-StepaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FB2FDBEC8954C44A09A6842B722702A /* Pods-Stepa-StepaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stepa-StepaUITests-Info.plist"; sourceTree = "<group>"; };
+		3DC5E6F844247060727C9F9212A0E2F7 /* Pods-StepaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5793548691FC1630FA66631F977FBD7C /* Pods-Stepa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stepa-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BAB3341F4FD8E823F95A7EB1CD36EA8 /* Pods-Stepa-StepaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stepa-StepaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DBF8119BA6D1EC3F4A366E643E72B93 /* Pods-StepaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StepaTests.modulemap"; sourceTree = "<group>"; };
+		624194C1A881DA14A8B6A2BF0AD2F2B7 /* Pods-Stepa-StepaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stepa-StepaUITests-umbrella.h"; sourceTree = "<group>"; };
+		649BE26C969287734E25697131FC1C5D /* Pods-StepaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StepaTests-umbrella.h"; sourceTree = "<group>"; };
+		6A60942E2F308459E032040674FA5C37 /* Pods-Stepa-StepaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stepa-StepaUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73605BE1D5F6F3168C1A9047D83C32A0 /* Pods-Stepa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stepa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8325B6BE6A5D9D9CE483E2A243732D46 /* Pods-Stepa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepa.release.xcconfig"; sourceTree = "<group>"; };
+		8CE0F7F1F2099ED93148D3348DDB9BB8 /* Pods-StepaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StepaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB4A74C2C58C467751486D3AD69E309C /* Pods-Stepa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stepa-dummy.m"; sourceTree = "<group>"; };
+		B0848988A2BB38221D09F34B138B0AA6 /* Pods-Stepa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepa.debug.xcconfig"; sourceTree = "<group>"; };
+		C40E5A7F970AF6FD17BFE8D3AC30FB1A /* Pods-StepaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StepaTests-Info.plist"; sourceTree = "<group>"; };
+		C5255C2A7684F0A81D6741DEA5E14A90 /* Pods-Stepa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stepa-Info.plist"; sourceTree = "<group>"; };
+		CF2F2E9A3E5F2DF784E45422EAA283C7 /* Pods-Stepa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stepa.modulemap"; sourceTree = "<group>"; };
+		D2488506E947885A249DDF6A975C1786 /* Pods-Stepa */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Stepa"; path = Pods_Stepa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF625B0B0E7F1FB8D468C9C361BDA4D /* Pods-StepaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StepaTests-dummy.m"; sourceTree = "<group>"; };
+		F2DEEE339C223ACA1DD83EF353A21062 /* Pods-StepaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StepaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5FB36A97A2D99E32331A76940BD89C7 /* Pods-Stepa-StepaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stepa-StepaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A51C50120AF4772E3FB57BF016EC24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF26421CABE089E5D605FD816714F13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E82229645702CC5E4D33F6B699D76D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A3F9E325796C7BE3B4CBAA6A29735F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E413E7C072E8B414E51D54AB4C302ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58FE41A3AA69780EE8E624085711C9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174EA869F572CE5172D8847CED68732D /* Pods-Stepa-StepaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A60942E2F308459E032040674FA5C37 /* Pods-Stepa-StepaUITests.modulemap */,
+				07D721E6E4755E94889FD4B4312262D3 /* Pods-Stepa-StepaUITests-acknowledgements.markdown */,
+				5BAB3341F4FD8E823F95A7EB1CD36EA8 /* Pods-Stepa-StepaUITests-acknowledgements.plist */,
+				282F4B78926B06378B41559FED8920CF /* Pods-Stepa-StepaUITests-dummy.m */,
+				2FB2FDBEC8954C44A09A6842B722702A /* Pods-Stepa-StepaUITests-Info.plist */,
+				624194C1A881DA14A8B6A2BF0AD2F2B7 /* Pods-Stepa-StepaUITests-umbrella.h */,
+				F5FB36A97A2D99E32331A76940BD89C7 /* Pods-Stepa-StepaUITests.debug.xcconfig */,
+				02895569FBE4A3C8933FD37EC27FEDF9 /* Pods-Stepa-StepaUITests.release.xcconfig */,
+			);
+			name = "Pods-Stepa-StepaUITests";
+			path = "Target Support Files/Pods-Stepa-StepaUITests";
+			sourceTree = "<group>";
+		};
+		1F6E7825DAA94666B1227CA1A9942AAA /* Pods-StepaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBF8119BA6D1EC3F4A366E643E72B93 /* Pods-StepaTests.modulemap */,
+				F2DEEE339C223ACA1DD83EF353A21062 /* Pods-StepaTests-acknowledgements.markdown */,
+				3DC5E6F844247060727C9F9212A0E2F7 /* Pods-StepaTests-acknowledgements.plist */,
+				DEF625B0B0E7F1FB8D468C9C361BDA4D /* Pods-StepaTests-dummy.m */,
+				C40E5A7F970AF6FD17BFE8D3AC30FB1A /* Pods-StepaTests-Info.plist */,
+				649BE26C969287734E25697131FC1C5D /* Pods-StepaTests-umbrella.h */,
+				8CE0F7F1F2099ED93148D3348DDB9BB8 /* Pods-StepaTests.debug.xcconfig */,
+				2DAB473509EE5AFD6F40F45B28EC3C7E /* Pods-StepaTests.release.xcconfig */,
+			);
+			name = "Pods-StepaTests";
+			path = "Target Support Files/Pods-StepaTests";
+			sourceTree = "<group>";
+		};
+		2690056283937A008F458C1BD0502751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2488506E947885A249DDF6A975C1786 /* Pods-Stepa */,
+				19FABAA96BE090FDD530B41971F4806E /* Pods-Stepa-StepaUITests */,
+				0FC7127408B188FECBA2F06C595EA3E4 /* Pods-StepaTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4283EA905716F96305ED9B166A5997F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71E743E20DCC6442A77429F43C13B02 /* Pods-Stepa */,
+				174EA869F572CE5172D8847CED68732D /* Pods-Stepa-StepaUITests */,
+				1F6E7825DAA94666B1227CA1A9942AAA /* Pods-StepaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2690056283937A008F458C1BD0502751 /* Products */,
+				4283EA905716F96305ED9B166A5997F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71E743E20DCC6442A77429F43C13B02 /* Pods-Stepa */ = {
+			isa = PBXGroup;
+			children = (
+				CF2F2E9A3E5F2DF784E45422EAA283C7 /* Pods-Stepa.modulemap */,
+				73605BE1D5F6F3168C1A9047D83C32A0 /* Pods-Stepa-acknowledgements.markdown */,
+				5793548691FC1630FA66631F977FBD7C /* Pods-Stepa-acknowledgements.plist */,
+				AB4A74C2C58C467751486D3AD69E309C /* Pods-Stepa-dummy.m */,
+				C5255C2A7684F0A81D6741DEA5E14A90 /* Pods-Stepa-Info.plist */,
+				1C73D83F75661572FCB25C57255410BD /* Pods-Stepa-umbrella.h */,
+				B0848988A2BB38221D09F34B138B0AA6 /* Pods-Stepa.debug.xcconfig */,
+				8325B6BE6A5D9D9CE483E2A243732D46 /* Pods-Stepa.release.xcconfig */,
+			);
+			name = "Pods-Stepa";
+			path = "Target Support Files/Pods-Stepa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58950FECBDD4C9F1108389C7AF5728AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCDEB3350FCB136067A25C0FCF9A474 /* Pods-Stepa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C79DAD5C97EB6FEBE2699909CE726 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E15EDACD31EE1F555738336FF40D068 /* Pods-StepaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9E7075208F3DA25C22C6DE009DEB51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3C68603C0EEA2820EF286CD9A33A5 /* Pods-Stepa-StepaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		667B6E60D42744064E7833283DC8B481 /* Pods-Stepa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 672849214BBAE0D037495E3381BA4E5F /* Build configuration list for PBXNativeTarget "Pods-Stepa" */;
+			buildPhases = (
+				58950FECBDD4C9F1108389C7AF5728AA /* Headers */,
+				7467F81560D6345956A312D0F46C76D6 /* Sources */,
+				E413E7C072E8B414E51D54AB4C302ADA /* Frameworks */,
+				E28760E1E21067D7C4E67D3E04C5160C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Stepa";
+			productName = Pods_Stepa;
+			productReference = D2488506E947885A249DDF6A975C1786 /* Pods-Stepa */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3A3E62D8D95B861E051CF26360C7D2A /* Pods-StepaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822F100FE6E924AA2A0285B063699C46 /* Build configuration list for PBXNativeTarget "Pods-StepaTests" */;
+			buildPhases = (
+				EC0C79DAD5C97EB6FEBE2699909CE726 /* Headers */,
+				6D482949DA4CF790763B0F7799E77D0D /* Sources */,
+				1A51C50120AF4772E3FB57BF016EC24C /* Frameworks */,
+				0D2AB90F90DD724B5C3906065919C5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17915F7740FD4A46C19588A3499C93A /* PBXTargetDependency */,
+			);
+			name = "Pods-StepaTests";
+			productName = Pods_StepaTests;
+			productReference = 0FC7127408B188FECBA2F06C595EA3E4 /* Pods-StepaTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E25E9FB950C7B29F11D25843C1131530 /* Pods-Stepa-StepaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86C685716026FCF093990B22EBA44A6 /* Build configuration list for PBXNativeTarget "Pods-Stepa-StepaUITests" */;
+			buildPhases = (
+				EE9E7075208F3DA25C22C6DE009DEB51 /* Headers */,
+				CA5109959ED1B8010B037E10A2D15A48 /* Sources */,
+				94E82229645702CC5E4D33F6B699D76D /* Frameworks */,
+				1A9CE4F3906D124C80F464EE7BE9C4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Stepa-StepaUITests";
+			productName = Pods_Stepa_StepaUITests;
+			productReference = 19FABAA96BE090FDD530B41971F4806E /* Pods-Stepa-StepaUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2690056283937A008F458C1BD0502751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667B6E60D42744064E7833283DC8B481 /* Pods-Stepa */,
+				E25E9FB950C7B29F11D25843C1131530 /* Pods-Stepa-StepaUITests */,
+				C3A3E62D8D95B861E051CF26360C7D2A /* Pods-StepaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2AB90F90DD724B5C3906065919C5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9CE4F3906D124C80F464EE7BE9C4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28760E1E21067D7C4E67D3E04C5160C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D482949DA4CF790763B0F7799E77D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469B1E01468E8C65B75A79D8842D6FF3 /* Pods-StepaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7467F81560D6345956A312D0F46C76D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E01DCDD2970B48459395D5DD909E70 /* Pods-Stepa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5109959ED1B8010B037E10A2D15A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9A7B96890AA032BBA64BD12E2ADA8F /* Pods-Stepa-StepaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17915F7740FD4A46C19588A3499C93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Stepa";
+			target = 667B6E60D42744064E7833283DC8B481 /* Pods-Stepa */;
+			targetProxy = 8D5DA3E5AC657C148E20CD341CD06E22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0EEA030E8A61368C766E26608EA29580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE0F7F1F2099ED93148D3348DDB9BB8 /* Pods-StepaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StepaTests/Pods-StepaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StepaTests/Pods-StepaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		33EAE26E457662D7E5DCED9F40C1E56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAB473509EE5AFD6F40F45B28EC3C7E /* Pods-StepaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StepaTests/Pods-StepaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StepaTests/Pods-StepaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		869C561752966B5146CE8BD7BF820BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8325B6BE6A5D9D9CE483E2A243732D46 /* Pods-Stepa.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepa/Pods-Stepa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepa/Pods-Stepa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8721FCE4FA034457E9E6B7C406A16C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02895569FBE4A3C8933FD37EC27FEDF9 /* Pods-Stepa-StepaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E21C6503FF47D85EF8FCB086DDC8DDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0848988A2BB38221D09F34B138B0AA6 /* Pods-Stepa.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepa/Pods-Stepa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepa/Pods-Stepa.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED122100A55FB93D92FA3C9EAD178283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FB36A97A2D99E32331A76940BD89C7 /* Pods-Stepa-StepaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stepa-StepaUITests/Pods-Stepa-StepaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		672849214BBAE0D037495E3381BA4E5F /* Build configuration list for PBXNativeTarget "Pods-Stepa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21C6503FF47D85EF8FCB086DDC8DDBB /* Debug */,
+				869C561752966B5146CE8BD7BF820BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822F100FE6E924AA2A0285B063699C46 /* Build configuration list for PBXNativeTarget "Pods-StepaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEA030E8A61368C766E26608EA29580 /* Debug */,
+				33EAE26E457662D7E5DCED9F40C1E56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86C685716026FCF093990B22EBA44A6 /* Build configuration list for PBXNativeTarget "Pods-Stepa-StepaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED122100A55FB93D92FA3C9EAD178283 /* Debug */,
+				8721FCE4FA034457E9E6B7C406A16C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
